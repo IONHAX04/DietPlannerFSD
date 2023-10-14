@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DietplannerApplication<dietplanner>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ionhax.dietplanner.dietplanner.DietplannerApplication",
+            "projectName": "dietplanner",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjectApplication<project>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ionhax.project.project.ProjectApplication",
+            "projectName": "project",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
